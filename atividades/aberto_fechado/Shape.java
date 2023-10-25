@@ -7,9 +7,11 @@ sempre que um novo tipo de forma é adicionado.
 public class Shape {
     private String type;
 
+
     public Shape(String type) {
         this.type = type;
     }
+
 
     public void draw() {
         if (type.equals("circle")) {
@@ -21,15 +23,19 @@ public class Shape {
         }
     }
 
+
     private void drawCircle() {
         System.out.println("Drawing a circle");
     }
+
 
     private void drawRectangle() {
         System.out.println("Drawing a rectangle");
     }
 
+
     private void drawTriangle() {
         System.out.println("Drawing a triangle");
     }
 }
+
